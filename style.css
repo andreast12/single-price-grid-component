@@ -80,3 +80,15 @@
 	padding: 1em 0;
 	border-radius: 5px;
 }
+
+
+/* col-2 */
+
+.col-2 {
+	color: var(--light-gray);
+	background-color: #2cc5c2;
+}
+
+.col-2 h4 {
+	margin-bottom: 1em;
+}
