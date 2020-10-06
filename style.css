@@ -13,10 +13,38 @@
 }
 
 .container {
+	width: 70%;
+	margin: auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
 
+.header, .col-1, .col-2 {
+	border: 1px solid;
+}
+
+/* header */
+
 .header {
 	grid-column: 1/3;
+	padding: 2em 2.5em;
+	line-height: 1.5;
 }
+
+.header h2 {
+	color: var(--cyan);
+}
+
+.header h4 {
+	color: var(--yellow);
+	margin-top: .8em;
+	margin-bottom: .3em;
+}
+
+.header p {
+	color: var(--grayish-blue);
+}
+
+
+/* col-1 */
+
