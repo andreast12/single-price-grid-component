@@ -107,7 +107,6 @@
 }
 
 .col-2 p {
-	color: var(--grayish-blue);
 	margin-top: .1em;
 }
 
@@ -119,8 +118,11 @@
 	.container {
 		width: 80%;
 		margin: 10vh auto;
-		display: flex;
-		flex-direction: column;
+		grid-template-columns: 1fr;
+	}
+
+	.header {
+		grid-column: span 1;
 	}
 
 	.col-1 {
